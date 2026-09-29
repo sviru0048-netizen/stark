@@ -8,9 +8,9 @@ load_dotenv()
 API_ID = int(getenv("API_ID", "34766709"))
 API_HASH = getenv("API_HASH", "c70063901bc81555174389982a394f95")
 BOT_TOKEN = getenv("BOT_TOKEN", "8564248095:AAEYoF6YaYvZ5zsXb4aVjYk18p4rRVbdXV4")
-OWNER_USERNAME = getenv("OWNER_USERNAME","sexydrifter")
-BOT_USERNAME = getenv("BOT_USERNAME" , "DolbyMusicRobot")
-BOT_NAME = getenv("BOT_NAME" , "DolbyAtoms")
+OWNER_USERNAME = getenv("OWNER_USERNAME","STARxD404")
+BOT_USERNAME = getenv("BOT_USERNAME" , "starmusicbot")
+BOT_NAME = getenv("BOT_NAME" , "starmusicbot")
 ASSUSERNAME = getenv("ASSUSERNAME" , "")
 BASE_URL = getenv("BASE_URL", "https://api.shrutibots.site")
 API_KEY = getenv("API_KEY", "ShrutiBotsmz4lGsT87UWrai3SBsPK")
@@ -27,10 +27,10 @@ UPSTREAM_REPO = getenv(
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv("GIT_TOKEN", None) or getenv("GITHUB_TOKEN", None)
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "http://t.me/textables")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "http://t.me/textables")
-SOURCE = getenv("SOURCE", "https://t.me/sexydrifter")
-CHAT = getenv("CHAT", "")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/STARxD404")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/STARxD404")
+SOURCE = getenv("SOURCE", "https://t.me/STARxD404")
+CHAT = getenv("CHAT", "https://t.me/STARxD404")
 AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", "False")
 AUTO_LEAVE_ASSISTANT_TIME = int(getenv("ASSISTANT_LEAVE_TIME", "9000"))
 SONG_DOWNLOAD_DURATION = int(getenv("SONG_DOWNLOAD_DURATION", "9999999"))
@@ -52,12 +52,12 @@ votemode = {}
 autoclean = []
 confirmer = {}
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://litter.catbox.moe/a9oxfp.jpg"
+    "START_IMG_URL", "https://files.catbox.moe/jyg34o.png"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://litter.catbox.moe/a9oxfp.jpg"
+    "PING_IMG_URL", "https://files.catbox.moe/jyg34o.png"
 )
-PLAYLIST_IMG_URL = "https://litter.catbox.moe/a9oxfp.jpg"
+PLAYLIST_IMG_URL = "https://files.catbox.moe/jyg34o.png="
 STATS_IMG_URL = "https://telegra.ph/file/d30d11c4365c025c25e3e.jpg"
 TELEGRAM_AUDIO_URL = "https://telegra.ph/file/c832e84cd991c865c7e4f.jpg"
 TELEGRAM_VIDEO_URL = "https://telegra.ph/file/e575ae40d6635250974e1.jpg"
