@@ -27,9 +27,9 @@ UPSTREAM_REPO = getenv(
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv("GIT_TOKEN", None) or getenv("GITHUB_TOKEN", None)
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "http://t.me/textables")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "http://t.me/textables")
-SOURCE = getenv("SOURCE", "https://t.me/sexydrifter")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/STARxD404")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/STARxD404")
+SOURCE = getenv("SOURCE", "https://t.me/STARxD404")
 CHAT = getenv("CHAT", "")
 AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", "False")
 AUTO_LEAVE_ASSISTANT_TIME = int(getenv("ASSISTANT_LEAVE_TIME", "9000"))
@@ -52,12 +52,12 @@ votemode = {}
 autoclean = []
 confirmer = {}
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://litter.catbox.moe/a9oxfp.jpg"
+    "START_IMG_URL", "https://files.catbox.moe/jyg34o.png"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://litter.catbox.moe/a9oxfp.jpg"
+    "PING_IMG_URL", "https://files.catbox.moe/jyg34o.png"
 )
-PLAYLIST_IMG_URL = "https://litter.catbox.moe/a9oxfp.jpg"
+PLAYLIST_IMG_URL = "https://files.catbox.moe/jyg34o.png"
 STATS_IMG_URL = "https://telegra.ph/file/d30d11c4365c025c25e3e.jpg"
 TELEGRAM_AUDIO_URL = "https://telegra.ph/file/c832e84cd991c865c7e4f.jpg"
 TELEGRAM_VIDEO_URL = "https://telegra.ph/file/e575ae40d6635250974e1.jpg"
